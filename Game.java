@@ -46,44 +46,7 @@ public class Game extends JPanel {
 		t.start();
 		addKeyListener(new Key());
 		setFocusable(true); 
-//		JButton restart = new JButton("Restart");
-//		restart.setLocation(0, 40);
-//		restart.setSize(220, 30);
-//		restart.addActionListener(new Restart());
-//		add(restart);
-//
-//
-//		JButton quit = new JButton("Quit");
-//		quit.addActionListener(new Quit());
-//		add(quit);
 	}
-
-//	private class Restart implements ActionListener
-//	{
-//		public void actionPerformed(ActionEvent e)
-//		{
-//			
-//			myImage = new BufferedImage(screenSize,screenSize,BufferedImage.TYPE_INT_RGB);
-//			myBuffer = myImage.getGraphics();
-//			score = 0;
-//			myBuffer.setColor(BACKGROUND);
-//			myBuffer.fillRect(0, 0, screenSize, screenSize);
-//			apple = new Apple(x,y);
-//			snakes.add(snake = new Snake());
-//			ArrayList<Tail> tails = new ArrayList<>();
-//			Tail tail = new Tail(snake.getX(),snake.getY());
-//			tails.add(tail);
-//			t.start();
-//		}
-//	}
-//
-//	private class Quit implements ActionListener
-//	{
-//		public void actionPerformed(ActionEvent e)
-//		{
-//			System.exit(0);
-//		}
-//	}
 
 	public class Key extends KeyAdapter
 	{
