@@ -1,0 +1,12 @@
+# Basic config file for the Screen Settings
+# a negative value means maximize. Values should be separated by a space
+
+# Note: The width and height are commented out so the defaults 
+# will be used (640 x 480)
+# width 1200
+# height 720
+resolution 8
+speed 30
+
+# Default number of threads is 1, or not multithreaded
+# threads 4
